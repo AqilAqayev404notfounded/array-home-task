@@ -23,7 +23,6 @@
 
             }
             #endregion
-
             #region task 2
             int[] array = { 5, 26, 23, 56, 89, 63, 63 };
             int[] array2 = { 5, 26, 23, 56, 89, 63, 63 };
@@ -64,7 +63,7 @@
 
 
             #endregion
-            #region
+            #region task 3
             int[] num = { 5,5, 26, 23, 56, 89, 63 };
 
 
