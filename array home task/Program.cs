@@ -24,20 +24,14 @@
             }
             #endregion
             #region task 2
-            int[] array = { 5, 26, 23, 56, 89, 63, 63 };
+            int[] array = { 5,5,5,5,5,5,5,5 };
             int[] array2 = { 5, 26, 23, 56, 89, 63, 63 };
             int i = 0;
             int i2 = 0;
             bool dplicate = true;
 
 
-            if (array.Length > array2.Length)
-            {
-                dplicate = false;
-
-            }
-            else
-            {
+            
                 for (i = 0; i < array.Length; i++)
                 {
                     bool isFound = false;
@@ -57,7 +51,7 @@
                     }
 
                 }
-            }
+            
 
             Console.WriteLine(dplicate);
 
